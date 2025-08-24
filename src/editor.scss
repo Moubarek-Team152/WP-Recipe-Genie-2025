@@ -1,0 +1,16 @@
+/**
+ * Editor-specific styles for the Recipe Generator block (source).
+ * These styles are imported into edit.js.
+ * 
+ * If you are using a build process, this file would be compiled into
+ * build/index.css or a similar asset.
+ */
+
+.recipe-generator-editor-preview {
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    p {
+        margin-bottom: 8px;
+    }
+}
