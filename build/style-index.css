@@ -1,0 +1,14 @@
+/**
+ * Styles for the Recipe Generator block (frontend and editor).
+ */
+.wp-block-recipe-generator-block .recipe-preview-area {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+}
+
+.wp-block-recipe-generator-block .recipe-preview-area p {
+    font-style: italic;
+    color: #555;
+}

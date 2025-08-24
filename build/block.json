@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "recipe-generator/block",
+  "title": "Recipe Generator",
+  "category": "widgets",
+  "description": "Generates a recipe using OpenAI based on provided inputs.",
+  "keywords": [ "recipe", "openai", "generate" ],
+  "version": "1.0.0",
+  "textdomain": "recipe-generator",
+  "icon": "carrot",
+  "attributes": {
+    "postTitle": {
+      "type": "string",
+      "source": "html",
+      "selector": "h1.recipe-post-title-placeholder",
+      "default": ""
+    },
+    "focusKeyword": {
+      "type": "string",
+      "default": ""
+    },
+    "relatedKeyword": {
+      "type": "string",
+      "default": ""
+    },
+    "internalLink": {
+      "type": "string",
+      "format": "url",
+      "default": ""
+    },
+    "externalLink": {
+      "type": "string",
+      "format": "url",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

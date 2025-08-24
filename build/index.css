@@ -1,0 +1,11 @@
+/**
+ * Editor-specific styles for the Recipe Generator block.
+ */
+.wp-block-recipe-generator-block {
+    border: 1px dashed #ccc;
+    padding: 15px;
+}
+
+.recipe-generator-controls .components-base-control {
+    margin-bottom: 10px;
+}
